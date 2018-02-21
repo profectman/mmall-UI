@@ -43,7 +43,7 @@ var config = {
 },
 	output:{
 		path :__dirname + '/dist/',
-		publicPath : 'dev' === WEBPACK_ENV ? '/dist/':'//s.halfgodmall.com/happymmall/dist/',
+		publicPath : 'dev' === WEBPACK_ENV ? '/dist/':'///product/frontend/mmall-fe/dist/',
 		filename :'js/[name].js'
 	},
 	externals : {
