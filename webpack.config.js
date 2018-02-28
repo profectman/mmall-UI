@@ -43,7 +43,7 @@ var config = {
 },
 	output:{
 		path :__dirname + '/dist/',
-		publicPath : 'dev' === WEBPACK_ENV ? '/dist/':'///product/frontend/mmall-fe/dist/',
+		publicPath : 'dev' === WEBPACK_ENV ? '/dist/':'//s.jihao.pro/mmall-UI/dist/',
 		filename :'js/[name].js'
 	},
 	externals : {
